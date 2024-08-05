@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="1362InfantLouisRichards.Eptro" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Scale>200</Scale>
+			<TargetSize>256,16,24,48</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="Eptro.xr.xml" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Eptro.xr.xml">
+				<Candidate type="Path">
+					<Value>Eptro.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="SplashScreen.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square310x310Logo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/Square310x310Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square310x310Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-48, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-48" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-48.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-256" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-256.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-24" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="TargetSize-16" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-16.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<ResourceMapSubtree name="www">
+					<NamedResource name="index.html" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/index.html">
+						<Candidate type="Path">
+							<Value>Assets\www\index.html</Value>
+						</Candidate>
+					</NamedResource>
+					<NamedResource name="offline.html" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/offline.html">
+						<Candidate type="Path">
+							<Value>Assets\www\offline.html</Value>
+						</Candidate>
+					</NamedResource>
+					<ResourceMapSubtree name="css">
+						<NamedResource name="bootstrap.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/bootstrap.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\bootstrap.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bootstrap.min.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/bootstrap.min.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\bootstrap.min.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="font-awesome.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/font-awesome.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\font-awesome.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="jquery.fancybox.min.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/jquery.fancybox.min.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\jquery.fancybox.min.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="owl.carousel.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/owl.carousel.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\owl.carousel.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="owl.theme.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/owl.theme.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\owl.theme.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="style.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/style.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\style.css</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="swiper.min.css" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/css/swiper.min.css">
+							<Candidate type="Path">
+								<Value>Assets\www\css\swiper.min.css</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="fonts">
+						<NamedResource name="fontawesome-webfont.svg" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/fonts/fontawesome-webfont.svg">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\fontawesome-webfont.svg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="fontawesome-webfont.ttf" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/fonts/fontawesome-webfont.ttf">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\fontawesome-webfont.ttf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="FontAwesome.otf" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/fonts/FontAwesome.otf">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\FontAwesome.otf</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="glyphicons-halflings-regular.svg" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/fonts/glyphicons-halflings-regular.svg">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\glyphicons-halflings-regular.svg</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="glyphicons-halflings-regular.ttf" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/fonts/glyphicons-halflings-regular.ttf">
+							<Candidate type="Path">
+								<Value>Assets\www\fonts\glyphicons-halflings-regular.ttf</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="images">
+						<ResourceMapSubtree name="slider">
+							<NamedResource name="banner.jpg" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/images/slider/banner.jpg">
+								<Candidate type="Path">
+									<Value>Assets\www\images\slider\banner.jpg</Value>
+								</Candidate>
+							</NamedResource>
+							<NamedResource name="mobile.png" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/images/slider/mobile.png">
+								<Candidate type="Path">
+									<Value>Assets\www\images\slider\mobile.png</Value>
+								</Candidate>
+							</NamedResource>
+						</ResourceMapSubtree>
+					</ResourceMapSubtree>
+					<ResourceMapSubtree name="js">
+						<NamedResource name="bootstrap.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/bootstrap.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\bootstrap.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="bootstrap.min.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/bootstrap.min.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\bootstrap.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="gmap.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/gmap.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\gmap.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="jquery.fancybox.min.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/jquery.fancybox.min.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\jquery.fancybox.min.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="jquery.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/jquery.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\jquery.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="owl.carousel.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/owl.carousel.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\owl.carousel.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="script.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/script.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\script.js</Value>
+							</Candidate>
+						</NamedResource>
+						<NamedResource name="swiper.jquery.min.js" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/Assets/www/js/swiper.jquery.min.js">
+							<Candidate type="Path">
+								<Value>Assets\www\js\swiper.jquery.min.js</Value>
+							</Candidate>
+						</NamedResource>
+					</ResourceMapSubtree>
+				</ResourceMapSubtree>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="My Project">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/My Project/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>My Project\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://1362InfantLouisRichards.Eptro/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+		<meta charset="utf-8">
+		<title>App | Eptro News</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="">
+
+        <!-- ============ Google fonts ============ -->
+        <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,400italic' rel='stylesheet' type='text/css'>
+        
+        <!-- ============ Bootstrap core CSS ============ -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        
+        <!-- ============ Add custom CSS here ============ -->
+        <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/animate.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        
+        <!-- ============ Special CSS for Animation ============ --> 
+        <style type="text/css">#anim-fs {position: absolute;height: 100%;width: 100%;}</style>
+    </head>
+  
+<body id="anim-fs">
+
+<!-- ===== Loading ===== -->
+
+    <!-- ===== Loading ===== -->
+
+    <!-- ************** START / GLISS MAP ************** --> 
+    <div id="map">
+        <div class="container">
+            <div class="col-xs-12 align-reduce">
+                <a class="backoff">
+                    <div class="reducing">
+                        <i class="fa fa-compress"></i>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- ************** END / GLISS MAP ************** --> 
+  
+    <div id="pattern"></div>
+    
+    <h1 class="tlt">Uh Oh! No Internet</h1>
+
+	    
+    <div class="container">
+    	<div id="close-map">
+    		<a id="close-map-top" class="fa-close-map">
+    			<i class="fa fa-angle-double-up"></i>
+    		</a>
+    	</div>
+    </div>
+    
+    <audio id="beep-two" preload="auto">
+		<source src="assets/sounds/glass-tone.mp3" />
+	</audio>
+    
+    <!-- ============ Javascript ============ -->
+    <script type="text/javascript" src="assets/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.lwtCountdown-1.0.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.vegas.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.popupoverlay.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.swipebox.js"></script>
+    <script type="text/javascript" src="assets/js/fss.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&amp;sensor=false"></script>
+    <script type="text/javascript" src="assets/js/contact_me.js"></script>
+    <script type="text/javascript" src="assets/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <script type="text/javascript" src="assets/js/script.js"></script>
+    <script type="text/javascript" src="assets/js/notifyMe.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="assets/js/future.js"></script>
+     
+    <script>
+
+   /* ============= *** Flat Surface Shader *** ============= */
+   
+    topcontainer = document.getElementById('anim-fs');
+    renderer = new FSS.CanvasRenderer();
+    scene = new FSS.Scene();
+    light = new FSS.Light('#0d2656', '#fc000f');
+    geometry = new FSS.Plane(topcontainer.offsetWidth, topcontainer.offsetHeight, 18, 12);
+    material = new FSS.Material('#ffffff', '#ffffff');
+    mesh = new FSS.Mesh(geometry, material);
+    now = Date.now();
+    start = Date.now();
+
+		function initialise() {
+			scene.add(mesh);
+			scene.add(light);
+			topcontainer.appendChild(renderer.element);
+			window.addEventListener('resize', resize);
+		}
+		
+		function resize() {
+			renderer.setSize(topcontainer.offsetWidth, topcontainer.offsetHeight);
+		}
+		
+		function animate() {
+			now = Date.now() - start;
+			light.setPosition(300 * Math.sin(now * 0.001), 150 * Math.cos(now * 0.0005), 150);
+			renderer.render(scene);
+			requestAnimationFrame(animate);
+		}
+
+    initialise();
+    resize();
+    animate();
+
+	</script>
+    
+    <script>
+		;( function( $ ) {
+		
+			$( '.swipebox' ).swipebox();
+		
+		} )( jQuery );
+	</script>
+
+  </body>
+</html>

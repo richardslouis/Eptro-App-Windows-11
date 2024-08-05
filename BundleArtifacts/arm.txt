@@ -1,0 +1,6 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\ARM\Release\Eptro_6.0.2205.0_ARM.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\AppPackages\Eptro_6.0.2205.0_Test\Eptro_6.0.2205.0_ARM.appxsym
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\ARM\Release\Eptro_6.0.2205.0_scale-100.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\ARM\Release\Eptro_6.0.2205.0_scale-125.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\ARM\Release\Eptro_6.0.2205.0_scale-150.appx
+ResourcePack=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\ARM\Release\Eptro_6.0.2205.0_scale-400.appx

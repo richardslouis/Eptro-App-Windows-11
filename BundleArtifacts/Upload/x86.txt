@@ -1,0 +1,2 @@
+MainPackage=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\x86\Release\Upload\Eptro_6.0.2205.0_x86.appx
+SymbolPackage=C:\Users\Richards Louis\Documents\Visual Studio 2017\Projects\Windows10\Eptro\Eptro\bin\x86\Release\Upload\Eptro_6.0.2205.0\Eptro_6.0.2205.0_x86.appxsym
